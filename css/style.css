@@ -71,38 +71,19 @@
     font-weight: 400;
     font-style: normal;
 }
-/* Удалить лишние шрифты */
 
 /* CSS variables */
 :root {
+	--base-color: #000000;
+	--body-color: #808080;
 	--text-color: #ffffff;
-	--block-shadow: 0 0 10px 10px rgba(0, 0, 0, .2);
+	--color-active: #ff8b38;
+
+	/*--block-shadow: 0 0 10px 10px rgba(0, 0, 0, .2);
 	--color-visit: #9b59b6;
 	--color-hover: #fffffc;
-	--color-active: #ff3300;
-	--base-color: #000000;
-	--header-hover: #c53131;
-	--body-color: #808080;
+	--header-hover: #c53131;*/
 }
-
-/* Common style */
-body {
-	background: var(--body-color);
-	font-family: 'Open Sans', arial;
-	color: var(--text-color);
-}
-
-a {
-	text-decoration: none;
-	transition: all 0.3s ease;
-}
-
-.wrapper {
-	max-width: 1400px;
-	width: 100%;
-	margin: 0 auto;
-}
-
 /*box-shadow: var(--block-shadow);*/
 /*border: 1px solid var(--border-color);*/
 /*.header__link:link {
@@ -122,6 +103,24 @@ a {
 }
 Может быть сделать сниппет
 */
+
+/* Common style */
+body {
+	background: var(--body-color);
+	font-family: 'Open Sans', arial;
+	color: var(--text-color);
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.wrapper {
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
 
 /* Header style */
 .header {
@@ -153,7 +152,7 @@ a {
 }
 
 .menu__link:hover {
-	color: #ff8b38;
+	color: var(--color-active);
 }
 
 .menu__link_right {
@@ -223,13 +222,80 @@ a {
 }
 
 .button:hover {
-	background-color: #ff8b38;
-	border-color: #ff8b38;
+	background-color: var(--color-active);
+	border-color: var(--color-active);
 }
 
 .authentication {
 	width: 360px;
+	margin-top: 29px;
 	margin-left: 225px;
+	background-color: #ffffff;
+	border-radius: 4px;
+}
+
+.authentication__title {
+	color: #333333;
+	text-align: center;
+	background-color: #f5f5f5;
+	font-size: 1.4em;
+    line-height: 2.45em;
+    margin: 0;
+    border-radius: 4px 4px 0 0;
+}
+
+.authentication__letter-color {
+	color: var(--color-active);
+}
+
+.authentication__form {
+	display: flex;
+	flex-direction: column;
+	margin: 29px 37px 0 38px;
+}
+
+.authentication__input {
+	width: 271px;
+	height: 30px;
+	border: none;
+	border-bottom: 1px solid rgba(189, 189, 189, 0.6);
+	font-size: 14px;
+	margin-bottom: 36px;
+	padding: 0 0 0 14px;
+}
+
+.authentication__input::placeholder {
+	color: rgba(189, 189, 189, 0.6);
+}
+
+.authentication__input:focus {
+    outline-color: transparent;
+	border-bottom: 1px solid #999999;
+}
+
+.authentication__input_mail {
+	margin-bottom: 47px;
+}
+
+.authentication__input_btn {
+	width: 360px;
+	height: 54px;
+	margin: 0;
+	padding: 0;
+	margin-left: -38px;
+	background-color: var(--color-active);
+	border: none;
+	color: var(--text-color);
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 0 0 4px 4px;
+	margin-top: 13px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.authentication__input_btn:hover {
+	font-size: 17px;
 }
 
 /* Footer style */
