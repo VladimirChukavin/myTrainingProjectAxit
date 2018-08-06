@@ -163,6 +163,7 @@ a {
 .banner {
 	height: 531px;
 	background: url(../img/buildings.png) 50% 40% no-repeat;
+	background-size: cover;
 	padding-top: 110px;
 }
 
@@ -298,6 +299,13 @@ a {
 	font-size: 17px;
 }
 
+svg path {
+	fill: red;
+}
+
+.social-icons__link:hover > svg path {
+	fill: green;
+}
 /* Footer style */
 
 /* Media queries 
