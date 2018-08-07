@@ -299,12 +299,28 @@ a {
 	font-size: 17px;
 }
 
-svg path {
-	fill: red;
+.social {
+	height: 105px;
+	background-color: #996;
 }
 
-.social-icons__link:hover > svg path {
-	fill: green;
+.social__wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 167px 0 152px;
+}
+
+.social-info {
+	
+}
+
+.social-icons {
+	display: flex;
+}
+
+.social-icons__link {
+	display: block;
 }
 /* Footer style */
 
