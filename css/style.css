@@ -457,6 +457,7 @@ a {
 	font-size: 20px;
 	line-height: 17px;
 	color: var(--title-color);
+	letter-spacing: 0.02em;
 }
 
 .content__title::after {
@@ -510,6 +511,37 @@ a {
 	color: var(--text-color);
 	margin-top: 8px;
 	margin-bottom: 38px;
+}
+
+/* Standard style */
+.standard {
+	height: 449px;
+	padding-top: 75px;
+	background-color: var(--block-color);
+}
+
+.standard__wrap {
+	display: flex;
+	align-items: flex-start;
+	margin: 0 89px 0 152px;
+}
+
+.content_top-margin {
+	margin-top: 36px;
+}
+
+.picture__left-margin {
+	margin-right: 0;
+	margin-left: 161px;
+}
+
+.content__text_bottom-margin {
+	margin-bottom: 0;
+}
+
+.content__text_unit-modification {
+	margin-top: 20px;
+	letter-spacing: 0.023em;
 }
 
 /* Footer style */
