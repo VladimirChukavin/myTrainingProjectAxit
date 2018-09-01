@@ -98,10 +98,45 @@ a {
 	transition: all 0.3s ease;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 .wrapper {
 	max-width: 1400px;
 	width: 100%;
 	margin: 0 auto;
+}
+
+.block-heading {
+	text-align: center;
+}
+
+.block-heading__title {
+	font-family: 'Raleway';
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: var(--title-color);
+	margin: 0;
+}
+
+.block-heading__title::after {
+	content: '';
+	display: block;
+	width: 64px;
+	height: 2px;
+	background-color: var(--active-color);
+	margin: 30px auto;
+}
+
+.block-heading__subtitle {
+	margin: 0;
+	font-size: 14px;
+	color: var(--text-color);
+	letter-spacing: 0.023em;
 }
 
 /* Button style */
@@ -544,6 +579,120 @@ a {
 	letter-spacing: 0.023em;
 }
 
+/* Awesome style */
+.awesome {
+	height: 484px;
+	padding-top: 108px;
+	background-color: var(--base-color);
+}
+
+.advantages {
+	margin: 80px 143px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantage {
+	max-width: 350px;
+	text-align: center;
+}
+
+.advantage__icon {
+	width: 66px;
+	height: 66px;
+	border: 2px solid var(--active-color);
+	border-radius: 50%;
+	margin: auto;
+	background: url(../img/lamp.svg) center center no-repeat;
+}
+
+.advantage__icon_bg-keyboard {
+	background: url(../img/keyboard.svg) center center no-repeat;
+}
+
+.advantage__icon_bg-lightning {
+	background: url(../img/lightning.svg) center center no-repeat;
+}
+
+.advantage__title {
+	font-size: 20px;
+	letter-spacing: 0.02em;
+	color: var(--title-color);
+	margin-top: 29px;
+}
+
+.advantage__text {
+	margin: 0;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--text-color);
+	letter-spacing: 0.023em;
+}
+
+/* Pricing style */
+.pricing {
+	height: 775px;
+	padding-top: 108px;
+	background-color: var(--block-color);
+}
+
+.proposals {
+	margin: 80px 145px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.proposal {
+	width: 343px;
+	text-align: center;
+}
+
+.proposal__title {
+	font-size: 20px;
+	color: var(--base-color);
+	background-color: var(--div-color);
+	margin: 0;
+	height: 59px;
+	line-height: 60px;
+}
+
+.proposal__price {
+	border-top: 1px solid var(--block-color);
+	background-color: var(--div-color);
+}
+
+.proposal__number {
+	height: 100px;
+	background: url(../img/price_0.png) center bottom no-repeat;
+}
+
+.proposal__payment-method {
+	height: 51px;
+	font-size: 14px;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 50px;
+}
+
+.proposal__message {
+	min-height: 5px;
+	background-color: var(--active-color);
+	color: var(--base-color);
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 40px;
+}
+
+.proposal__number_bg19 {
+	background: url(../img/price_19.png) center bottom no-repeat;
+}
+
+.proposal__number_bg70 {
+	background: url(../img/price_70.png) center bottom no-repeat;
+}
+
 /* Footer style */
 
-/* Media queries 
+/* Media queries */
