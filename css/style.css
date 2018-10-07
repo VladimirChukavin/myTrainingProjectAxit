@@ -101,6 +101,7 @@ a {
 ul {
 	list-style: none;
 	padding: 0;
+	margin: 0;
 }
 
 .wrapper {
@@ -636,8 +637,15 @@ ul {
 	background-color: var(--block-color);
 }
 
+.block-heading__title_mod::after {
+	margin: 28px auto;
+}
+
 .proposals {
-	margin: 80px 145px;
+	/*margin: 80px 145px;*/
+	margin-top: 80px;
+	margin-left: 146px;
+	margin-right: 145px;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
@@ -662,9 +670,22 @@ ul {
 	background-color: var(--div-color);
 }
 
-.proposal__number {
-	height: 100px;
+.proposal__number-0 {
 	background: url(../img/price_0.png) center bottom no-repeat;
+	height: 90px;
+	margin-bottom: 10px;
+}
+
+.proposal__number-19 {
+	background: url(../img/price_19.png) center bottom no-repeat;
+	height: 101px;
+	margin-bottom: -1px;
+}
+
+.proposal__number-70 {
+	background: url(../img/price_70.png) center bottom no-repeat;
+	height: 98px;
+	margin-bottom: 2px;
 }
 
 .proposal__payment-method {
@@ -685,12 +706,18 @@ ul {
 	line-height: 40px;
 }
 
-.proposal__number_bg19 {
-	background: url(../img/price_19.png) center bottom no-repeat;
+.proposal__item {
+	height: 40px;
+	font-size: 14px;
+	line-height: 42px;
+	text-transform: uppercase;
+	background-color: var(--base-color);
+	border-bottom: 1px solid var(--block-color);
 }
 
-.proposal__number_bg70 {
-	background: url(../img/price_70.png) center bottom no-repeat;
+.proposal__item_no-border {
+	border-bottom: none;
+	height: 41px;
 }
 
 /* Footer style */
