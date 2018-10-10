@@ -800,6 +800,35 @@ ul {
 	font-size: 14px;
 }
 
+/* Design style */
+.design {
+	height: 246px;
+	padding-top: 74px;
+	background: url(../img/street.png) 50% 100% no-repeat, rgba(0, 0, 0, 0.6);
+	background-blend-mode: darken;
+}
+
+.block-heading__title_design-mod {
+	color: var(--base-color);
+}
+
+.block-heading__title_design-mod::after {
+	margin-top: 29px;
+	margin-bottom: 31px;
+	background-color: var(--base-color);
+}
+
+.block-heading__subtitle_design-mod {
+	font-family: 'Raleway Light';
+	font-size: 16px;
+	letter-spacing: 0.001em;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.button_design-mod {
+	margin-top: 33px;
+}
+
 /* Footer style */
 
 /* Media queries 
