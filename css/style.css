@@ -79,6 +79,7 @@
 	--additional-color: #000000;
 	--block-color: #f5f5f5;
 	--active-color: #ff9b51;
+	--hover-color: #f9822b;
 	--form-color: rgba(189, 189, 189, 0.8);
 	--focus-color: #999999;
 	--text-color: #86878b;
@@ -155,8 +156,8 @@ ul {
 }
 
 .button:hover {
-	background-color: var(--active-color);
-	border-color: var(--active-color);
+	background-color: var(--hover-color);
+	border-color: var(--hover-color);
 }
 
 .button_tabs-style {
@@ -203,7 +204,7 @@ ul {
 }
 
 .menu__link:hover {
-	color: var(--active-color);
+	color: var(--hover-color);
 }
 
 .menu__link_right {
@@ -336,7 +337,8 @@ ul {
 }
 
 .authentication__input_btn:hover {
-	font-size: 17px;
+	/*font-size: 17px;*/
+	background-color: var(--hover-color);
 }
 
 /* Social style */
@@ -382,7 +384,7 @@ ul {
 }
 
 .social-icons__link:hover {
-	color: var(--active-color);
+	color: var(--hover-color);
 }
 
 .social-icons__link_no-margin {
@@ -415,6 +417,11 @@ ul {
 	text-align: center;
 	border-bottom: 1px solid var(--block-color);
 	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.tabs__btn:hover {
+	background-color: var(--hover-color);
 }
 
 .tabs__btn_upper-radius {
@@ -900,6 +907,12 @@ ul {
 	padding: 13px 22px 15px 23px;
 	border-radius: 4px;
 	box-shadow: 0 1px 2px 0px rgba(0, 0, 0, 0.4);
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.contact__btn:hover {
+	background-color: var(--hover-color);
 }
 
 .contact__btn:active {
