@@ -1,6 +1,20 @@
 (function() {
 	'use strict';
 
+	document.addEventListener('DOMContentLoaded', function () {
+		var activeJs = document.querySelector('.enable-js');
+		var enactiveJs = document.querySelector('.disable-js');
+
+		if (activeJs) {
+			activeJs.classList.remove('hidden');
+		}
+
+		if (enactiveJs) {
+			enactiveJs.classList.add('hidden');
+		}
+
+	});
+
 	var buttons = document.querySelector('.tabs__buttons');
 	var tabsCase = document.querySelector('.tabs__case');
 
