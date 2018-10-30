@@ -1,20 +1,22 @@
 (function() {
 	'use strict';
 
+// behavior of the section tabs at active javascript
 	document.addEventListener('DOMContentLoaded', function () {
 		var activeJs = document.querySelector('.enable-js');
-		var enactiveJs = document.querySelector('.disable-js');
+		var inactiveJs = document.querySelector('.disable-js');
 
 		if (activeJs) {
 			activeJs.classList.remove('hidden');
 		}
 
-		if (enactiveJs) {
-			enactiveJs.classList.add('hidden');
+		if (inactiveJs) {
+			inactiveJs.classList.add('hidden');
 		}
 
 	});
 
+// switching of tabs in the section tabs
 	var buttons = document.querySelector('.tabs__buttons');
 	var tabsCase = document.querySelector('.tabs__case');
 
@@ -33,6 +35,30 @@
 				tabsCase.children[i].classList.add('tabs__page_active');
 			}
 		}
-	})
+	});
+
+// scrolling up
+	var raise = document.querySelector('.raise');
+
+	raise.addEventListener('click', function () {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth"
+		});
+	});
+
+// click-through in the menu
+	var menu = document.querySelector('.menu');
+
+	menu.addEventListener('click', function (e) {
+		var dataContent = e.target.getAttribute('data-destination');
+
+		var result = document.querySelector('.' + dataContent);
+
+		window.scrollTo({
+			top: result.offsetTop,
+			behavior: "smooth"
+		});
+	});
 	
 })();

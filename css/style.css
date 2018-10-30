@@ -151,7 +151,7 @@ ul {
     font-size: 15px;
     font-weight: 600;
     padding: 11px 29px 0 30px;
-    transition: all 0.4s;
+    transition: all 0.3s ease;
     margin-left: 1px;
 }
 
@@ -958,6 +958,7 @@ ul {
 	height: 60px;
 	padding-top: 23px;
 	background-color: var(--additional-color);
+	position: relative;
 }
 
 .footer__icons {
@@ -1013,6 +1014,27 @@ ul {
 	margin-top: 11px;
 	margin-left: 2px;
 	opacity: 0.8;
+}
+
+.raise {
+	position: fixed;
+	bottom: 20px;
+	right: 170px;
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons/up-arrow.svg) no-repeat;
+	border: none;
+	opacity: 0.7;
+	transition: all 0.3s ease;
+	outline: none;
+}
+
+.raise:hover {
+	opacity: 1;
 }
 
 /* Media queries */
