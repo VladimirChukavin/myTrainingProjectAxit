@@ -61,4 +61,18 @@
 		});
 	});
 	
+// opening closing of the menu with a width of a window is less 900px
+	var navBtn = document.querySelector('.navigation__btn');
+	var flag = true;
+
+	navBtn.addEventListener('click', function () {
+		if (flag) {
+			menu.style.display = 'block';
+			flag = false;
+		} else {
+			menu.style.display = '';
+			flag = true;
+		}
+	});
+
 })();
