@@ -1131,6 +1131,16 @@ ul {
 		margin-right: 20px;
 		margin-left: 20px;
 	}
+
+	/* Pricing style */
+	.proposals {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.proposal {
+		width: 31%;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -1165,6 +1175,7 @@ ul {
 
 	.block-heading__title {
 		line-height: normal;
+		font-size: 24px;
 	}
 
 	/* Banner style */
@@ -1348,6 +1359,27 @@ ul {
 	.advantage_margin {
 		margin-top: 30px;
 		margin-bottom: 30px;
+	}
+
+	/* Pricing style */
+	.pricing {
+		height: auto;
+		padding-top: 60px;
+		padding-bottom: 20px;
+	}
+
+	.proposals {
+		display: block;
+		margin-top: 50px;
+	}
+
+	.proposal {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+
+	.proposal__item {
+		height: auto;
 	}
 
 }
