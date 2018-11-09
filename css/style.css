@@ -1141,6 +1141,16 @@ ul {
 	.proposal {
 		width: 31%;
 	}
+
+	/* Customers style */
+	.comments {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.comment {
+		width: 25%;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -1163,6 +1173,13 @@ ul {
 	.social-icons__link {
 		width: 55px;
 		margin: 0 20px 20px;
+	}
+
+	/* Customers style */
+	.customers {
+		height: auto;
+		padding-top: 60px;
+		padding-bottom: 50px;
 	}
 }
 
@@ -1380,6 +1397,20 @@ ul {
 
 	.proposal__item {
 		height: auto;
+	}
+
+	/* Customers style */
+	.customers {
+		padding-bottom: 20px;
+	}
+
+	.comments {
+		display: block;
+	}
+
+	.comment {
+		width: 100%;
+		margin-bottom: 40px;
 	}
 
 }
