@@ -1413,6 +1413,13 @@ ul {
 		margin-bottom: 40px;
 	}
 
+	/* Design style */
+	.design {
+		height: auto;
+		padding-top: 60px;
+		padding-bottom: 50px;
+		background-size: cover;
+	}
 }
 
 @media (max-width: 300px) {
