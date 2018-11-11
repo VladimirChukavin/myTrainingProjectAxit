@@ -1197,6 +1197,16 @@ ul {
 		padding-top: 60px;
 		padding-bottom: 50px;
 	}
+
+	/* Footer style */
+	.footer__icon {
+		width: auto;
+		margin: 0 15px 10px;
+	}
+
+	.footer__copyright {
+		margin-top: 1px;
+	}
 }
 
 @media (max-width: 900px) {
@@ -1456,6 +1466,12 @@ ul {
 	.contact__right {
 		margin: 0 auto;
 		width: calc(10% + 205px);
+	}
+
+	/* Footer style */
+	.footer {
+		height: auto;
+		padding-bottom: 13px;
 	}
 }
 
