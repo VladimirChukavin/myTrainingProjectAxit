@@ -1151,6 +1151,22 @@ ul {
 	.comment {
 		width: 25%;
 	}
+
+	/* Contact style */
+	.contact__message {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.contact__left,
+	.contact__right {
+		width: 45%;
+	}
+
+	.contact__input,
+	.contact__area {
+		width: calc(100% - 12px);
+	}
 }
 
 @media (max-width: 1200px) {
@@ -1420,6 +1436,27 @@ ul {
 		padding-bottom: 50px;
 		background-size: cover;
 	}
+
+	/* Contact style */
+	.contact {
+		height: auto;
+		padding-top: 60px;
+		padding-bottom: 50px;
+	}
+
+	.contact__message {
+		margin-top: 50px;
+	}
+
+	.contact__box {
+		display: block;
+	}
+
+	.contact__left, 
+	.contact__right {
+		margin: 0 auto;
+		width: calc(10% + 205px);
+	}
 }
 
 @media (max-width: 300px) {
@@ -1432,5 +1469,11 @@ ul {
 	/* Sub-list style */
 	.note__icon {
 		display: none;
+	}
+
+	/* Contact style */
+	.contact__left, 
+	.contact__right {
+		width: 100%;
 	}
 }
