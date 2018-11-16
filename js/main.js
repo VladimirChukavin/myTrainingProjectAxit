@@ -7,11 +7,11 @@
 		var inactiveJs = document.querySelector('.disable-js');
 
 		if (activeJs) {
-			activeJs.classList.remove('hidden');
+			removeClass(activeJs, 'hidden');
 		}
 
 		if (inactiveJs) {
-			inactiveJs.classList.add('hidden');
+			addClass(inactiveJs, 'hidden');
 		}
 
 	});
@@ -23,16 +23,18 @@
 	buttons.addEventListener('click', function (e) {
 		var tabName = e.target.innerHTML;
 
+		if (e.target.classList.contains('tabs__btn_active')) return;
+
 		for (var i = 0; i < buttons.children.length; i++) {
-			buttons.children[i].classList.remove('tabs__btn_active');
+			removeClass(buttons.children[i], 'tabs__btn_active');
 		}
-		e.target.classList.add('tabs__btn_active');
+		addClass(e.target, 'tabs__btn_active');
 		
 		for (var i = 0; i < tabsCase.children.length; i++) {
 			if (tabsCase.children[i].getAttribute('data-tab') != tabName) {
-				tabsCase.children[i].classList.remove('tabs__page_active');
+				removeClass(tabsCase.children[i], 'tabs__page_active');
 			} else {
-				tabsCase.children[i].classList.add('tabs__page_active');
+				addClass(tabsCase.children[i], 'tabs__page_active');
 			}
 		}
 	});
@@ -62,8 +64,8 @@
 	var menu = document.querySelector('.menu');
 
 	menu.addEventListener('click', function (e) {
-		mask.classList.remove('is-active');
-		menuShow.classList.remove('is-active');
+		removeClass(mask, 'is-active');
+		removeClass(menuShow, 'is-active');
 
 		var dataContent = e.target.getAttribute('data-destination');
 
@@ -74,5 +76,23 @@
 			behavior: "smooth"
 		});
 	});
+
+/**
+ * deletes the class existing at an element
+ * @param  {[type]} elem      DOM element
+ * @param  {[type]} nameClass name of a class
+ */
+	function removeClass(elem, nameClass) {
+		elem.classList.remove(nameClass);
+	}
+
+/**
+ * adds a new class to an element
+ * @param {[type]} elem      DOM element
+ * @param {[type]} nameClass name of a class
+ */
+	function addClass(elem, nameClass) {
+		elem.classList.add(nameClass);
+	}
 
 })();
