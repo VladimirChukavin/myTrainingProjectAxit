@@ -1,75 +1,53 @@
  /*Font style */
 @font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/opensanslight.woff2') format('woff2'), url('../fonts/opensanslight.woff') format('woff'), url('../fonts/opensanslight.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+	font-family: 'Open Sans';
+	src: local('Open Sans'),
+		 local('OpenSans'),
+		 url('../fonts/OpenSans/opensans.woff2') format('woff2'),
+		 url('../fonts/OpenSans/opensans.woff') format('woff'),
+		 url('../fonts/OpenSans/opensans.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url('../fonts/opensanslightitalic.woff2') format('woff2'), url('../fonts/opensanslightitalic.woff') format('woff'), url('../fonts/opensanslightitalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+	font-family: 'Open Sans Semibold';
+	src: local('Open Sans Semibold'),
+		 local('OpenSans-Semibold'),
+		 url('../fonts/OpenSans/opensanssemibold.woff2') format('woff2'),
+		 url('../fonts/OpenSans/opensanssemibold.woff') format('woff'),
+		 url('../fonts/OpenSans/opensanssemibold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans'), local('OpenSans'), url('../fonts/opensans.woff2') format('woff2'), url('../fonts/opensans.woff') format('woff'), url('../fonts/opensans.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+	font-family: 'Open Sans Bold';
+	src: local('Open Sans Bold'),
+		 local('OpenSans-Bold'),
+		 url('../fonts/OpenSans/opensansbold.woff2') format('woff2'),
+		 url('../fonts/OpenSans/opensansbold.woff') format('woff'),
+		 url('../fonts/OpenSans/opensansbold.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('../fonts/opensansitalic.woff2') format('woff2'), url('../fonts/opensansitalic.woff') format('woff'), url('../fonts/opensansitalic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
+	font-family: 'Raleway';
+	src: local('Raleway Light'),
+		 local('Raleway-Light'),
+		 url('../fonts/Raleway/ralewaylight.woff2') format('woff2'),
+		 url('../fonts/Raleway/ralewaylight.woff') format('woff'),
+		 url('../fonts/Raleway/ralewaylight.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
 }
 @font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('../fonts/opensanssemibold.woff2') format('woff2'), url('../fonts/opensanssemibold.woff') format('woff'), url('../fonts/opensanssemibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Semibold Italic'), local('OpenSans-SemiboldItalic'), url('../fonts/opensanssemibolditalic.woff2') format('woff2'), url('../fonts/opensanssemibolditalic.woff') format('woff'), url('../fonts/opensanssemibolditalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/opensansbold.woff2') format('woff2'), url('../fonts/opensansbold.woff') format('woff'), url('../fonts/opensansbold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'), url('../fonts/opensansbolditalic.woff2') format('woff2'), url('../fonts/opensansbolditalic.woff') format('woff'), url('../fonts/opensansbolditalic.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('../fonts/opensansextrabold.woff2') format('woff2'), url('../fonts/opensansextrabold.woff') format('woff'), url('../fonts/opensansextrabold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Open Sans';
-    src: local('Open Sans Extrabold Italic'), local('OpenSans-ExtraboldItalic'), url('../fonts/opensansextrabolditalic.woff2') format('woff2'), url('../fonts/opensansextrabolditalic.woff') format('woff'), url('../fonts/opensansextrabolditalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-}
-@font-face {
-    font-family: 'Raleway';
-    src: local('Raleway Light'), local('Raleway-Light'), url('../fonts/ralewaylight.woff2') format('woff2'), url('../fonts/ralewaylight.woff') format('woff'), url('../fonts/ralewaylight.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Raleway';
-    src: local('Raleway Regular'), local('Raleway-Regular'), url('../fonts/ralewayregular.woff2') format('woff2'), url('../fonts/ralewayregular.woff') format('woff'), url('../fonts/ralewayregular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+	font-family: 'Raleway';
+	src: local('Raleway Regular'),
+		 local('Raleway-Regular'),
+		 url('../fonts/Raleway/ralewayregular.woff2') format('woff2'),
+		 url('../fonts/Raleway/ralewayregular.woff') format('woff'),
+		 url('../fonts/Raleway/ralewayregular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
 }
 
 /* CSS variables */
@@ -137,7 +115,7 @@ ul {
 }
 
 .block-heading__title {
-	font-family: 'Raleway';
+	font-family: 'Raleway', arial;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 28px;
@@ -164,14 +142,14 @@ ul {
 /* Button style */
 .button {
 	display: inline-block;
-    height: 27px;
-    border: 2px solid var(--base-color);
-    color: var(--base-color);
-    font-size: 15px;
-    font-weight: 600;
-    padding: 11px 29px 0 30px;
-    transition: all 0.3s ease;
-    margin-left: 1px;
+	height: 27px;
+	border: 2px solid var(--base-color);
+	color: var(--base-color);
+	font-family: 'Open Sans Semibold', arial;
+	font-size: 15px;
+	padding: 11px 29px 0 30px;
+	transition: all 0.3s ease;
+	margin-left: 1px;
 }
 
 .button:hover {
@@ -239,7 +217,8 @@ ul {
 }
 
 .menu__link {
-	color: var(--base-color);
+	color: #b0b0b0;
+	font-family: 'Open Sans Semibold', arial;
 	margin-right: 47px;
 	font-size: 14px;
 }
@@ -282,7 +261,7 @@ ul {
 .heading__title {
 	margin-top: 25px;
 	margin-bottom: 35px;
-	font-family: 'Raleway';
+	font-family: 'Raleway', arial;
 	font-size: 36px;
 	line-height: 42px;
 	font-weight: 100;
@@ -300,7 +279,7 @@ ul {
 }
 
 .description {
-	font-family: 'Raleway';
+	font-family: 'Raleway', arial;
 	font-size: 16px;
 	line-height: 23px;
 	font-weight: 100;
@@ -321,13 +300,15 @@ ul {
 	color: #333333;
 	text-align: center;
 	background-color: var(--block-color);
-	font-size: 1.4em;
-    line-height: 2.45em;
-    margin: 0;
-    border-radius: 4px 4px 0 0;
+	font-family: 'Open Sans Bold', arial;
+	font-size: 21px;
+	line-height: 2.45em;
+	margin: 0;
+	border-radius: 4px 4px 0 0;
 }
 
 .authentication__letter-color {
+	text-transform: uppercase;
 	color: var(--active-color);
 }
 
@@ -352,7 +333,7 @@ ul {
 }
 
 .authentication__input:focus {
-    outline-color: transparent;
+	outline-color: transparent;
 	border-bottom: 1px solid var(--focus-color);
 }
 
@@ -846,9 +827,9 @@ ul {
 	position: absolute;
 	bottom: -15px;
 	left: 27px;
-    border-top: 15px solid var(--block-color);
-    border-left: 10px solid #fff;
-    border-right: 10px solid #fff;
+	border-top: 15px solid var(--block-color);
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
 }
 
 .comment__author {
@@ -866,9 +847,9 @@ ul {
 }
 
 .comment__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .comment__name,
@@ -906,7 +887,7 @@ ul {
 }
 
 .block-heading__subtitle_design-mod {
-	font-family: 'Raleway Light';
+	font-family: 'Raleway Light', arial;
 	font-size: 16px;
 	letter-spacing: 0.001em;
 	color: var(--semitransparent-color);
@@ -965,7 +946,7 @@ ul {
 
 .contact__input:focus,
 .contact__area:focus {
-    outline-color: transparent;
+	outline-color: transparent;
 	border-bottom: 1px solid var(--focus-color);
 }
 
