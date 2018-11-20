@@ -69,7 +69,7 @@
 /* Common style */
 body {
 	background: var(--body-color);
-	font-family: 'Open Sans', arial;
+	font-family: 'Open Sans', Arial, sans-serif;
 	color: var(--text-color);
 }
 
@@ -115,7 +115,7 @@ ul {
 }
 
 .block-heading__title {
-	font-family: 'Raleway', arial;
+	font-family: 'Raleway', Arial, sans-serif;
 	font-size: 36px;
 	font-weight: 400;
 	line-height: 28px;
@@ -145,7 +145,7 @@ ul {
 	height: 27px;
 	border: 2px solid var(--base-color);
 	color: var(--base-color);
-	font-family: 'Open Sans Semibold', arial;
+	font-family: 'Open Sans Semibold', Arial, sans-serif;
 	font-size: 15px;
 	padding: 11px 28px 0 30px;
 	transition: all 0.3s ease;
@@ -218,7 +218,7 @@ ul {
 
 .menu__link {
 	color: #b0b0b0;
-	font-family: 'Open Sans Semibold', arial;
+	font-family: 'Open Sans Semibold', Arial, sans-serif;
 	margin-right: 47px;
 	font-size: 14px;
 }
@@ -262,7 +262,7 @@ ul {
 	margin-top: 25px;
 	margin-bottom: 35px;
 	margin-left: -2px;
-	font-family: 'Raleway', arial;
+	font-family: 'Raleway', Arial, sans-serif;
 	font-size: 2.219em;
 	letter-spacing: 0.008em;
 	line-height: 43px;
@@ -281,7 +281,7 @@ ul {
 }
 
 .description {
-	font-family: 'Raleway Light', arial;
+	font-family: 'Raleway Light', Arial, sans-serif;
 	font-size: 0.98em;
 	letter-spacing: 0.01em;
 	line-height: 23px;
@@ -303,7 +303,7 @@ ul {
 	color: #333333;
 	text-align: center;
 	background-color: var(--block-color);
-	font-family: 'Open Sans Bold', arial;
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 20px;
 	line-height: 2.7em;
 	margin: 0;
@@ -354,7 +354,7 @@ ul {
 	background-color: var(--active-color);
 	border: none;
 	color: var(--base-color);
-	font-family: 'Open Sans Semibold', arial;
+	font-family: 'Open Sans Semibold', Arial, sans-serif;
 	font-size: 15px;
 	border-radius: 0 0 4px 4px;
 	margin-top: 13px;
@@ -383,8 +383,8 @@ ul {
 
 .social-info__title {
 	color: #333333;
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 20px;
-	font-weight: 700;
 	margin: 0 0 5px;
 }
 
@@ -441,9 +441,9 @@ ul {
 	height: 111px;
 	background-color: var(--div-color);
 	color: var(--base-color);
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 15px;
 	line-height: 110px;
-	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 	border-bottom: 1px solid var(--block-color);
@@ -489,6 +489,7 @@ ul {
 
 .tabs__title {
 	font-size: 20px;
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	color: var(--additional-color);
 	margin-top: 8px;
 	margin-bottom: 46px;
@@ -558,6 +559,7 @@ ul {
 
 .content__title {
 	margin-top: -4px;
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 20px;
 	line-height: 17px;
 	color: var(--title-color);
@@ -601,6 +603,7 @@ ul {
 }
 
 .note__title {
+	font-family: 'Open Sans Semibold', Arial, sans-serif;
 	font-size: 14px;
 	line-height: 12px;
 	color: var(--title-color);
@@ -684,6 +687,7 @@ ul {
 }
 
 .advantage__title {
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 20px;
 	letter-spacing: 0.02em;
 	color: var(--title-color);
@@ -724,6 +728,7 @@ ul {
 }
 
 .proposal__title {
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 20px;
 	color: var(--base-color);
 	background-color: var(--div-color);
@@ -757,8 +762,8 @@ ul {
 
 .proposal__payment-method {
 	height: 51px;
+	font-family: 'Open Sans Semibold', Arial, sans-serif;
 	font-size: 14px;
-	font-weight: 600;
 	font-style: italic;
 	line-height: 50px;
 }
@@ -767,8 +772,8 @@ ul {
 	min-height: 5px;
 	background-color: var(--active-color);
 	color: var(--base-color);
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 14px;
-	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 40px;
 }
@@ -862,6 +867,7 @@ ul {
 }
 
 .comment__name {
+	font-family: 'Open Sans Bold', Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 600;
 	color: var(--div-color);
@@ -891,7 +897,7 @@ ul {
 }
 
 .block-heading__subtitle_design-mod {
-	font-family: 'Raleway Light', arial;
+	font-family: 'Raleway Light', Arial, sans-serif;
 	font-size: 16px;
 	letter-spacing: 0.001em;
 	color: var(--semitransparent-color);
@@ -957,6 +963,7 @@ ul {
 .contact__btn {
 	display: block;
 	color: var(--base-color);
+	font-family: 'Open Sans Semibold', Arial, sans-serif;
 	font-size: 15px;
 	letter-spacing: 0.007em;
 	background-color: var(--active-color);
